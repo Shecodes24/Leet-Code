@@ -20,14 +20,4 @@ class Solution {
         }
         return res;
     }
-
-    public static void main(String[] args)
-    {
-        Solution obj = new Solution();
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-
-        int[] result = obj.twoSum(nums, target);
-        System.out.println("[" + result[0] + ", " + result[1] + "]");
-    }
 }
